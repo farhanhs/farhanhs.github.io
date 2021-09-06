@@ -2,7 +2,20 @@ body {
     width: 700px;
     margin: 0 auto;
   }
-  
+h1{
+    color:rgb(84, 255, 255);
+    background: 	#000000;
+    border: 2px solid rgb(255,84,104);
+    padding: 10px;
+    margin: 10px;
+}  
+h2{
+    color:rgb(84, 255, 255);
+    background: 	#000000;
+    border: 2px solid rgb(255,84,104);
+    padding: 10px;
+    margin: 10px;
+}
 p {
     color:#FF44AA;
     background: 	#000000;
