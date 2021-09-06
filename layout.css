@@ -4,8 +4,8 @@ body {
   }
   
 p {
-    color:rgba(15, 19, 54, 0.3);
-    background: rgba(255,84,104,0.3);
+    color:#FF44AA;
+    background: 	#000000;
     border: 2px solid rgb(255,84,104);
     padding: 10px;
     margin: 10px;
@@ -22,6 +22,6 @@ span {
     grid-gap: 10px;
 }
 a:link{
-    color:white;
+    color:	#0000FF;
     text-decoration:none ;
 }
