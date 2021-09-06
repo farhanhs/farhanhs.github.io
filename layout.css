@@ -1,60 +1,17 @@
-
-<style type="text/css">
-#sitebody{
-　width:600px;
-　margin:0 auto;
-　font-size:13px;
-}
-#header{
-　background-color:#FFD4D4;
-　height:80px;
-　text-align:center;
-　line-height:80px;
-}
-#sidebar_left{
-　background-color:#FFECC9;
-　width:120px;
-　height:400px;
-　text-align:center;
-　line-height:400px;
-　float:left;
-}
-#sidebar_right{
-　background-color:#FFECC9;
-　width:120px;
-　height:400px;
-　text-align:center;
-　line-height:400px;
-　float:right;
-}
-#content{
-　margin-left:120px;
-　margin-right:120px;
-　height:400px;
-　background-color:#F2FFF2;
-　text-align:center;
-　line-height:400px;
-}
-#footer{
-　clear:both;
-　background-color:#FFD4D4;
-　height:80px;
-　text-align:center;
-　line-height:80px;
-}
-.body {
+body {
     width: 700px;
     margin: 0 auto;
   }
   
-.p {
+p {
+    color:rgba(15, 19, 54, 0.3);
     background: rgba(255,84,104,0.3);
     border: 2px solid rgb(255,84,104);
     padding: 10px;
     margin: 10px;
   }
   
-.span {
+span {
     background: white;
     border: 1px solid black;
   }
@@ -64,11 +21,7 @@
     grid-template-rows: 100px 100px;
     grid-gap: 10px;
 }
-</style>
-<div id="sitebody">
-　<div id="header">header</div>
-　<div id="sidebar_left">sidebar_left</div>
-　<div id="sidebar_right">sidebar_right</div>
-　<div id="content">content</div>
-　<div id="footer">footer</div>
-</div>
+a:link{
+    color:white;
+    text-decoration:none ;
+}
