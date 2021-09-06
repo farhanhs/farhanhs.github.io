@@ -42,22 +42,28 @@
 　text-align:center;
 　line-height:80px;
 }
-body {
+.body {
     width: 700px;
     margin: 0 auto;
   }
   
-  p {
+.p {
     background: rgba(255,84,104,0.3);
     border: 2px solid rgb(255,84,104);
     padding: 10px;
     margin: 10px;
   }
   
-  span {
+.span {
     background: white;
     border: 1px solid black;
   }
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
 </style>
 <div id="sitebody">
 　<div id="header">header</div>
